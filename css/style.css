@@ -336,14 +336,14 @@ nav h1 {
 	text-align: center;
 }
 
-.counters i {
-	color: lightskyblue;
-	margin-bottom: 5px;
-}
-
 .counters .counter {
 	font-size: 45px;
 	margin: 10px 0;
+}
+
+.counter-div {
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* section */
@@ -610,6 +610,14 @@ footer img {
         flex-direction: row;
         justify-content: space-between;
     }
+
+    /* counter */
+
+    .counter-div {
+        flex-direction: row;
+    }
+
+    
 
     /* contact */
 
