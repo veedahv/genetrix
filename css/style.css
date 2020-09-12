@@ -657,4 +657,9 @@ footer img {
     .form-row label {
         width: 90%;
     }
+
+    .contact-flex {
+        margin: auto;
+        display: flex;
+    }
 }
