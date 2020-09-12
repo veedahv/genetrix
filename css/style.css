@@ -327,13 +327,7 @@ nav h1 {
     background-image: url('../images/six.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.counters .container {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 30px;
-	text-align: center;
+    position: relative;
 }
 
 .counters .counter {
@@ -342,8 +336,25 @@ nav h1 {
 }
 
 .counter-div {
-    flex-direction: column;
-    justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+
+.counters::after {
+    content: '';
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
 }
 
 /* section */
@@ -401,7 +412,7 @@ nav h1 {
     color: var(--gray-dark);
 }
 
-.contact-section .button {
+.button {
     padding: 10px 20px;
     background-color: var(--gray);
     border-radius: 20px;
@@ -422,6 +433,10 @@ input {
     width: 100%;
     padding: 20px;
     margin-top: 15px;
+}
+
+label{
+    width: 100%;
 }
 /* section */
 
@@ -628,7 +643,7 @@ footer img {
         justify-content: space-between;
     }
 
-    .form-row input {
-        width: 95%;
+    .form-row label {
+        width: 90%;
     }
 }
