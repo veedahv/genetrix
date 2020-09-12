@@ -5,15 +5,15 @@
 // });
 
 
-function initMap() {
-//   Latitude: 51.5214 / 51°31'17"N
+// function initMap() {
+// //   Latitude: 51.5214 / 51°31'17"N
 
-// Longitude: -0.6461 / 0°38'46"W
-  var uluru = {lat:51.5214 /, lng: -0.6461};
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
+// // Longitude: -0.6461 / 0°38'46"W
+//   var uluru = {lat:51.5214 /, lng: -0.6461};
+//   var map = new google.maps.Map(
+//       document.getElementById('map'), {zoom: 4, center: uluru});
+//   var marker = new google.maps.Marker({position: uluru, map: map});
+// }
 
 function elementInViewport(el) {
   var top = el.offsetTop;
