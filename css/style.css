@@ -472,6 +472,7 @@ label{
 .contact-flex {
     margin: 20px auto;
     display: grid;
+    gap: 10px;
     grid-template-columns: 1fr;
 }
 
@@ -482,6 +483,8 @@ label{
 /* section */
 
 #team-section {
+    max-width: 700px;
+    margin: auto;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -551,6 +554,10 @@ footer img {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+footer h1 {
+    font-size: 20px;
 }
 
 .footer-bottom p {
