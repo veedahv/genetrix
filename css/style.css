@@ -382,7 +382,7 @@ nav h1 {
 }
 
 .market-grid .grid-box {
-    padding: 20px 40px;
+    padding: 20px;
     background-color: var(--white);
     color: var(--black);
     border-radius: 10px;
