@@ -83,6 +83,7 @@ input {
 .title {
     font-size: 22px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .sub-title {
@@ -382,7 +383,7 @@ nav h1 {
 }
 
 .market-grid .grid-box {
-    padding: 20px;
+    padding: 20px 10px;
     background-color: var(--white);
     color: var(--black);
     border-radius: 10px;
