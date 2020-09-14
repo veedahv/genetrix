@@ -40,7 +40,7 @@
                         </li>
                         <hr>
                         <li>
-                            <a href="#about-us">About Us</a>
+                            <a href="#about-us" onclick="menu()">About Us</a>
                         </li>
                         <hr>
                         <li>
@@ -580,6 +580,12 @@
     </footer>
     <script src="js/script.js"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scroolY > 100)
+        })
     </script>
 </body>
 
