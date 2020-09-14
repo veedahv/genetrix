@@ -253,14 +253,14 @@ nav h1 {
     flex-direction: column;
     align-items: center;
     max-width: 500px;
-    padding-top: 150px;
+    padding-top: 100px;
     color: var(--white);
     position: relative;
     z-index: 2;
 }
 
 .home-box h1 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .home-box p {
@@ -496,6 +496,10 @@ label{
     height: 400px;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
    }
+
+.map-div {
+    width: 100%;
+}
 /* section */
 
 #team-section {
@@ -606,6 +610,16 @@ footer h1 {
     section {
         padding: 50px;
     }
+    
+    /* section */
+
+    .home-box {
+        padding-top: 150px;
+    }
+
+    .home-box h1 {
+        font-size: 40px;
+    }
 
     .clients {
         flex-direction: row;
@@ -627,10 +641,18 @@ footer h1 {
     }
 
     .contact-flex {
-        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-grid {
+        width: 100%;
+        margin: 60px auto;
         display: grid;
+        gap: 80px 30px;
         grid-template-columns: 1fr 1fr;
     }
+    
 
 
 }
@@ -705,6 +727,14 @@ footer h1 {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
     }
+
+    /* section */
+
+    .contact-flex {
+        display: flex;
+        flex-direction: row;
+    }
+
     /* section */
     
     #team-section {
@@ -729,12 +759,6 @@ footer h1 {
 
     .form-row label {
         width: 49.5%;
-    }
-
-    .contact-flex {
-        margin: 20px auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .footer-bottom {
