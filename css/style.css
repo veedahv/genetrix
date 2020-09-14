@@ -479,8 +479,6 @@ input {
     width: 100%;
     padding: 10px;
     margin-top: 15px;
-    /* background-color: transparent;
-    border: 1px solid var(--white); */
 }
 
 label{
@@ -507,7 +505,7 @@ label{
 .map-div {
     width: 100%;
 }
-/* section */
+/* team section */
 
 #team-section {
     max-width: 700px;
@@ -649,7 +647,7 @@ footer h1 {
     }
 
     .contact-grid {
-        width: 100%;
+        width: 70%;
         margin: 10px auto;
         display: grid;
         gap: 80px 30px;
