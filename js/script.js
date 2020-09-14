@@ -28,7 +28,7 @@ const run = () => {
   if (elementInViewport(check)) {
     // counter
 const counters = document.querySelectorAll('.counter');
-const speed = 2; // The lower the slower
+const speed = 40; // The lower the slower
 
 counters.forEach(counter => {
 	const updateCount = () => {
@@ -56,9 +56,6 @@ counters.forEach(counter => {
 });
 
   } 
-  // else {
-  //   console.log('victoria can not go home :)')
-  // }
 
 }
 
