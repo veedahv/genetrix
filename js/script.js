@@ -80,4 +80,3 @@ function initMap() {
   // The marker, positioned at Uluru
   var marker = new google.maps.Marker({position: uluru, map: map});
 }
-
