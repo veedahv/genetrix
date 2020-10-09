@@ -4,400 +4,409 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="At Genetrix-Acquisitions we procure established businesses allowing owners, 
-    shareholders and founders to pursue their passions, new ventures or retirement">
-    <meta name="keywords" content="mergers, acquisitions, deal stucturing, business ales">
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="ty1zEHGH8q8rU1l5PMHVSYNcJkmiEudcXg1WzAEC">
-    <!-- Favicon -->
-    <link href="images/logo-black.png" rel="shortcut icon">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <title> Home - Gentrix Acquisitions </title>
+    <link rel="stylesheet" href="./css/newstyle.css">
+    <link rel="shortcut icon" href="images/logo-black.png" type="image/x-icon">
+    <title>Home - Gentrix Acquisitions</title>
 </head>
 
 <body>
-    <header id="header">
-        <div class="container flex header">
-            <nav class="flex">
-                <img src="images/logo-white.png" alt="logo">
+    <!-- header -->
+    <header id="header" class="position-absolute">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo-black.png" alt="logo">
                 <h1>Genetrix-Acquisitions</h1>
-            </nav>
-            <div>
-                <!-- <div id="hamburger" onclick="menu()">
-                    <span class="menu-lines line-1"></span>
-                    <span class="menu-lines line-2"></span>
-                    <span class="menu-lines line-3"></span>
-                </div>                 -->
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-                <div class="hamburger" id="hamburger" onclick="this.classList.toggle('is-active')">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </div>
-            </span>
-        </button> -->
-                <div class="nav-links">
-                    <ul>
-                        <li>
-                            <a href="#home-page" onclick="menu()">Home</a>
-                        </li>
-                        <hr>
-                        <li>
-                            <a href="#about-us" onclick="menu()">About Us</a>
-                        </li>
-                        <hr>
-                        <li>
-                            <a href="#strategy" onclick="menu()">Our Strategy</a>
-                        </li>
-                        <hr>
-                        <li>
-                            <a href="#market-sector" onclick="menu()">Market Sectors</a>
-                        </li>
-                        <hr>
-                        <li>
-                            <a href="#team" onclick="menu()">Our Team</a>
-                        </li>
-                        <hr>
-                        <a href="" class="nav-btn" onclick="menu()">Contact Us</a>
-                    </ul>
-                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <div class="hamburger" id="hamburger-1" onclick="this.classList.toggle('is-active')">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="lndex.html">Home</a>
+                    </li>
+                    <hr>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <hr>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sector.html">Market Sectors</a>
+                    </li>
+                    <hr>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Our Team</a>
+                    </li>
+                    <hr>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                </ul>
+                </ul>
             </div>
-        </div>
+        </nav>
     </header>
-    <div class="scroll-up">
-        <a href="#header"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-    </div>
-    <section id="home-page" class="home">
-        <div class="container">
-            <div class="home-box-contain flex">
-                <div class="home-box flex">
-                    <h1>Mergers &amp; Acquisitions</h1>
-                    <p>Global Deal-Structuring Experts</p>
-                    <a href="#about-us">Learn More</a>
-                    <a href="new.html">new work</a>
-                </div>
-            </div>
-            <div class="home-arrow">
-                <a href="#about-us">
-                    <i class="fa fa-2x fa-angle-down" aria-hidden="true"></i>
-                </a>
-            </div>
-
+    <!-- <div class="container">
+        <div class="spinner-grow" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+    </div> -->
+    <main>
+        <div class="scroll-up">
+            <a href="#header"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
         </div>
-    </section>
-    <section>
-        <div class="container">
-            <div id="about-us">
-                <h3 class="text-center title">WE BUY AND SELL BUSINESSES</h3>
-                <div class="grid about-info">
-                    <div class="grid-info-one">
-                        <img src="images/business-clean-about.jpg" alt="">
+        <section id="home-page" class="home position-relative">
+            <div class="container">
+                <div class="home-box-contain d-flex align-items-center ">
+                    <div class="card home-box m-auto text-center">
+                        <div class="card-body">
+                            <h1 class="card-title">Mergers &amp; Acquisitions</h1>
+                            <p class="card-text">Global Deal-Structuring Experts</p>
+                            <a href="#about-us" class="btn p-2 mt-4 rounded">Learn More</a>
+                        </div>
                     </div>
-                    <div class="grid-info-two">
-                        <p>
-                            <span class="title">Mission</span>
-                            At Genetrix-Acquisitions we procure established
-                            businesses allowing owners, shareholders and
-                            founders to pursue their passions, new ventures or retirement.
-                        </p>
+                </div>
+                <div class="home-arrow border position-absolute rounded-circle">
+                    <a href="#about-us">
+                        <i class="fa fa-2x fa-angle-down" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div id="about-us">
+                    <h3 class="text-center title">WE BUY AND SELL BUSINESSES</h3>
+                    <div class="grid about-info align-items-center">
+                        <div class="grid-info-one">
+                            <img src="images/business-clean-about.jpg" alt="">
+                        </div>
+                        <div class="grid-info-two">
+                            <p>
+                                <span class="title">Mission</span>
+                                At Genetrix-Acquisitions we procure established
+                                businesses allowing owners, shareholders and
+                                founders to pursue their passions, new ventures or retirement.
+                            </p>
+                        </div>
+                        <div class="grid-info-three">
+                            <img src="images/values.jpg" alt="">
+                        </div>
+                        <div class="grid-info-four">
+                            <p>
+                                <span class="title">Values</span>
+                                Our team has in-depth experience and expertise in
+                                various industries/market sector. We provide professsional
+                                guidiance at every stage of the acquisition process.
+                                We enssure a win-win for buyers and sellers
+                            </p>
+                        </div>
                     </div>
-                    <div class="grid-info-three">
-                        <img src="images/values.jpg" alt="">
+                </div>
+                <!-- <div id="strategy" class="mt-5">
+                    <h3 class="text-center title">Our Strategy</h3>
+                    <p class="text-center">
+                        One-stop solution for the sale of business, mergers
+                        and acquisitions, corporate finance, corperate
+                        restructuring, IPO, consultancy & advisory
+                    </p>
+                    <div class="grid strategy-grid text-center">
+                        <div class="grid-box">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Acquisition strategy</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit. Modi, maxime!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-box">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Divestitures</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit. Modi, maxime!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-box">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Due Diligence</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit. Modi, maxime!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-box">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Post-Merger Integration</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit. Modi, maxime!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-box">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Joint Ventures & Alliance</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit. Modi, maxime!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-box">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">M&A Capability</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit. Modi, maxime!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="grid-info-four">
-                        <p>
-                            <span class="title">Values</span>
-                            Our team has in-depth experience and expertise in
-                            various industries/market sector. We provide professsional
-                            guidiance at every stage of the acquisition process.
-                            We enssure a win-win for buyers and sellers
-                        </p>
+                </div> -->
+
+            </div>
+        </section>
+        <section class="counters">
+            <div class="container">
+                <div class="row counter-div">
+                    <div class="col-sm-3 col-md-6">
+                        <!-- <span data-purecounter-start="0" data-purecounter-end="100" class="purecounter">
+                            0
+                        </span> -->
+                        <div class="counter" data-target="41">0</div>
+                        <h3>INDUSTRIES</h3>
+                    </div>
+                    <div class="col-sm-3 col-md-6">
+                        <!-- <span class="counter" data-counter-time="2000" data-counter-delay="10">
+                            123456789
+                        </span> -->
+                        <div class="counter" data-target="341">0</div>
+                        <h3>HOURS OF MEETING</h3>
+                    </div>
+                    <div class="col-sm-3 col-md-6">
+                        <div class="counter" data-target="250">0</div>
+                        <h3>CLIENTS</h3>
+                    </div>
+                    <div class="col-sm-3 col-md-6">
+                        <div class="counter" data-target="650">0</div>
+                        <h3>DEALS</h3>
                     </div>
                 </div>
             </div>
-            <div id="strategy">
-                <h3 class="text-center title">Our Strategy</h3>
-                <p class="text-center">
-                    One-stop solution for the sale of business, mergers
-                    and acquisitions, corporate finance, corperate
-                    restructuring, IPO, consultancy & advisory
+        </section>
+        <section id="market-sector">
+            <div class="container">
+                <div class="card mb-3 w-100">
+                    <div class="row no-gutters">
+                      <div class="col-md-6" style="max-height: 250px;">
+                        <img src="images/market-sector.jpg" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card-body text-center">
+                          <h3 class="card-title">Market Sectors</h3>
+                          <p class="mb-4 card-text">Genetrix-Acquisitions experts are involved in diverse business sectors.</p>
+                          <a href="sector.html" class="py-2 px-3">Our Market Sector</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- <section>
+            <div class="container">
+                <h3 class="text-center title">Market Sectors</h3>
+                <p class="text-center sub-title">
+                    Genetrix-Acquisitions experts are involved in diverse business sectors.
                 </p>
-                <div class="grid strategy-grid">
-                    <div class="grid-box">
-                        <div class="strategy-grid-img">
-                            <i class="fa fa-5x fa-database" aria-hidden="true"></i>
-                        </div>
-                        <h4 class="strategy-title">Acquisition strategy</h4>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, maxime!
-                        </p>
+                <div class="text-center grid market-grid">
+                    <div class="grid-box p-3">
+                        <h4> Aviation</h4>
                     </div>
-                    <div class="grid-box">
-                        <div class="strategy-grid-img">
-                            <i class="fa fa-5x fa-cogs" aria-hidden="true"></i>
-                        </div>
-                        <h4 class="strategy-title">Divestitures</h4>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, maxime!
-                        </p>
+                    <div class="grid-box p-3">
+                        <h4> Phamaceutical</h4>
                     </div>
-                    <div class="grid-box">
-                        <div class="strategy-grid-img">
-                            <i class="fa fa-5x fa-bullseye" aria-hidden="true"></i>
-                        </div>
-                        <h4 class="strategy-title">Due Diligence</h4>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, maxime!
-                        </p>
+                    <div class="grid-box p-3">
+                        <h4> Robotic Automation</h4>
                     </div>
-                    <div class="grid-box">
-                        <div class="strategy-grid-img">
-                            <i class="fa fa-5x fa-pie-chart" aria-hidden="true"></i>
-                        </div>
-                        <h4 class="strategy-title">Post-Merger Integration</h4>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, maxime!
-                        </p>
+                    <div class="grid-box p-3">
+                        <h4> Telecommunication</h4>
                     </div>
-                    <div class="grid-box">
-                        <div class="strategy-grid-img">
-                            <i class="fa fa-5x fa-handshake-o" aria-hidden="true"></i>
-                        </div>
-                        <h4 class="strategy-title">Joint Ventures & Alliance</h4>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, maxime!
-                        </p>
+                    <div class="grid-box p-3">
+                        <h4> Oil & Gas</h4>
                     </div>
-                    <div class="grid-box">
-                        <div class="strategy-grid-img">
-                            <i class="fa fa-5x fa-superpowers" aria-hidden="true"></i>
-                        </div>
-                        <h4 class="strategy-title">M&A Capability</h4>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, maxime!
-                        </p>
+                    <div class="grid-box p-3">
+                        <h4> Consultancy</h4>
+                    </div>
+                    <div class="grid-box p-3">
+                        <h4> Media</h4>
+                    </div>
+                    <div class="grid-box p-3">
+                        <h4> Construction</h4>
+                    </div>
+                    <div class="grid-box p-3">
+                        <h4> E-Commerce</h4>
+                    </div>
+                    <div class="grid-box p-3">
+                        <h4> Drones</h4>
+                    </div>
+                    <div class="grid-box p-3">
+                        <h4> Fashion & Textile</h4>
+                    </div>
+                    <div class="grid-box p-3">
+                        <h4> IT</h4>
+                    </div>
+                    <div class="grid-box p-3">
+                        <h4> Software</h4>
+                    </div>
+                    <div class="grid-box p-3">
+                        <h4> Logistics</h4>
+                    </div>
+                    <div class="grid-box p-3">
+                        <h4> Energy</h4>
+                    </div>
+                    <div class="grid-box p-3">
+                        <h4> Hospitality</h4>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="counters">
-        <div class="container flex counter-div">
-            <div>
-                <div class="counter" data-target="41">0</div>
-                <h3>INDUSTRIES</h3>
-            </div>
-            <div>
-                <div class="counter" data-target="341">0</div>
-                <h3>HOURS OF MEETING</h3>
-            </div>
-            <div>
-                <div class="counter" data-target="250">0</div>
-                <h3>CLIENTS</h3>
-            </div>
-            <div>
-                <div class="counter" data-target="650">0</div>
-                <h3>DEALS</h3>
-            </div>
-        </div>
-    </section>
-    <section id="market-sector">
-        <div class="container">
-            <h3 class="text-center title">Market Sectors</h3>
-            <p class="text-center sub-title">
-                Genetrix-Acquisitions experts are involved in diverse business sectors.
-            </p>
-            <div class="grid market-grid">
-                <div class="grid-box">
-                    <h4> Aviation</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Phamaceutical</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Robotic Automation</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Telecommunication</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Oil & Gas</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Consultancy</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Media</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Construction</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> E-Commerce</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Drones</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Fashion & Textile</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> IT</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Software</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Logistics</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Energy</h4>
-                </div>
-                <div class="grid-box">
-                    <h4> Hospitality</h4>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="team">
-        <div class="container">
-            <h3 class="text-center title">Meet Our Team</h3>
-            <div class="flex" id="team-section">
-                <div class="flex team-div">
-                    <div class="team-img"><img src="https://genetrix-acquisitions.com/assets/images/custom/user.png"
-                            alt="">
-                    </div>
-                    <div class="team-detail flex">
-                        <h4>Imoh Umoetuk</h4>
-                        <p>Investor</p>
-                    </div>
-                </div>
-                <div class="flex team-div">
-                    <div class="team-img"><img src="https://genetrix-acquisitions.com/assets/images/custom/user.png"
-                            alt="">
-                    </div>
-                    <div class="team-detail flex">
-                        <h4>David Sodey</h4>
-                        <p>Director</p>
-                    </div>
-                </div>
-                <div class="flex team-div">
-                    <div class="team-img"><img src="https://genetrix-acquisitions.com/assets/images/custom/user.png"
-                            alt="">
-                    </div>
-                    <div class="team-detail flex">
-                        <h4>Lauren Bishop</h4>
-                        <p>Acquisition Consultant</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-
-        <div class="container text-center">
-            <div class="contact-info">
-                <h1>Contact Us</h1>
-                <form action="post">
-                    <div class="flex form-row">
-                        <label for="name">
-                            <input type="text" name="name" id="name" placeholder="Name">
-                        </label>
-                        <label for="email">
-                            <input type="email" name="email" id="email" placeholder="E-Mail">
-                        </label>
-                    </div>
-                    <label for="subject">
-                        <input type="text" name="subject" id="subject" placeholder="Subject">
-                    </label>
-                    <label for="message">
-                        <input type="text" name="message" id="message" placeholder="Message">
-                    </label>
-                </form>
-                <button type="submit" class="button">SEND MESSAGE</button>
-                <div class="contact-info contact-flex">
-                    <div class="contact-grid grid">
-                        <div>
-                            <i class="fa fa-3x fa-envelope-o" aria-hidden="true"></i>
-                            <h5>Email</h5>
-                            <p>itu@genetrixsoftware.com</p>
+        </section> -->
+        <section id="team">
+            <div class="container">
+                <div class="card mb-3 w-100">
+                    <div class="row no-gutters">
+                      <div class="col-md-6" style="max-height: 250px;">
+                        <img src="images/market-sector.jpg" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card-body text-center">
+                          <h3 class="card-title">Our Team</h3>
+                          <p class="mb-4 card-text">Genetrix-Acquisitions experts are involved in diverse business sectors.</p>
+                          <a href="team.html" class="py-2 px-3">Meet Our Team</a>
                         </div>
-                        <div>
-                            <i class="fa fa-3x fa-linkedin" aria-hidden="true"></i>
-                            <h5>LinkedIn</h5>
-                            <p>Genetrix-Acquisitions
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- <section id="team">
+            <div class="container">
+                <h3 class="text-center title">Meet Our Team</h3>
+                <div class="d-flex align-items-center justify-content-between my-3 mx-auto" id="team-section">
+                    <div class="d-flex align-items-center justify-content-between my-2 team-div">
+                        <div class="team-img rounded-circle"><img src="images/user.png" class="rounded-circle" alt="">
                         </div>
-                        <div>
-                            <i class="fa fa-3x fa-mobile" aria-hidden="true"></i>
-                            <h5>Phone</h5>
-                            <p>+44 798 431 4533</p>
-                        </div>
-                        <div>
-                            <i class="fa fa-3x fa-map-marker" aria-hidden="true"></i>
-                            <h5>Address</h5>
-                            <p>27 Suffolk, Maidenhead, UK</p>
+                        <div class="team-detail ml-3">
+                            <h4>Imoh Umoetuk</h4>
+                            <p>Investor</p>
                         </div>
                     </div>
-                    <div class="map-div">
-                        <h3>Location</h3>
-                        <div id="map"></div>
+                    <div class="d-flex align-items-center justify-content-between my-2 team-div">
+                        <div class="team-img rounded-circle"><img src="images/user.png" class="rounded-circle" alt="">
+                        </div>
+                        <div class="team-detail  ml-3">
+                            <h4>David Sodey</h4>
+                            <p>Director</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between my-2 team-div">
+                        <div class="team-img rounded-circle"><img src="images/user.png" class="rounded-circle" alt="">
+                        </div>
+                        <div class="team-detail  ml-3">
+                            <h4>Lauren Bishop</h4>
+                            <p>Acquisition Consultant</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <div>
-                <h1>Genetrix-Acquisitions</h1>
-                <img src="images/logo-white.png" alt="">
-            </div>
-            <hr class="hr">
-            <div class="flex footer-bottom">
-                <div class="flex">
-                    <div class="social-links-div">
-                        <ul class="social-links flex">
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i></i>
-                                </a>
-                            </li>
-                        </ul>
+        </section> -->
+        <section>   
+            <div class="container">
+                <div class="card mb-3 w-100">
+                    <div class="row no-gutters">
+                      <div class="col-md-6" style="max-height: 250px;">
+                        <img src="images/market-sector.jpg" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card-body text-center">
+                          <h3 class="card-title">Get In Touch With Us</h3>
+                          <!-- <p class="mb-4 card-text">Genetrix-Acquisitions experts are involved in diverse business sectors.</p> -->
+                          <a href="sector.html" class="py-2 px-3">Contact Us</a>
+                        </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container text-center">
                 <div>
-                    <p>2020 Genetrix-Acquisitions, All Rights Reserved.</p>
+                    <h1>Genetrix-Acquisitions</h1>
+                    <img src="images/logo-white.png" alt="" style="max-width: 50px;">
+                </div>
+                <hr class="hr">
+                <div class="d-flex footer-bottom flex-column align-items-center justify-content-evenly">
+                    <div class="d-flex">
+                        <div class="social-links-div" style="width: 70px;">
+                            <ul class="social-links d-flex justify-content-between">
+                                <li>
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <p>2020 Genetrix-Acquisitions, All Rights Reserved.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <script defer src="js/script.js"></script>
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-    </script>
-    <script type="text/javascript">
-        window.addEventListener("scroll", function(){
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scroolY > 100)
-        })
-    </script>
+        </footer>   
+    </main>
+    <script src="js/script.js"></script>
+    <script src="/path/to/jquery.min.js"></script>
+    <script src="/path/to/jquery.waypoints.min.js"></script>
+    <script async src="dist/purecounter.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

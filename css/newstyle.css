@@ -321,16 +321,7 @@ nav button {
 .team-div {
 }
 
-.team-img {
-    width: 170px;
-    height: 170px;
-    background-color: var(--gray);
-}
 
-.team-img img {
-    width: 170px;
-    height: 170px;
-}
 /* footer */
 
 footer {

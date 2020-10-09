@@ -58,18 +58,6 @@ button {
     border: none;
 }
 
-/*.title {
-    font-size: 22px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-} */
-
-/* .sub-title {
-    font-size: 20px;
-} */
-
-/* header */
-
 header {
     justify-content: space-between;
     align-items: center;
@@ -158,133 +146,12 @@ nav button {
       color: var(--white);
       font-weight: 100;      
   }
-  
-/* landing page */
-
-  .home {
-    background-image: url('../images/home-bg.jpg');
+  .about-top {
+    background: url(../images/business-clean-about.jpg) no-repeat;
     background-size: cover;
-    height: 100vh;
     color: var(--white);
-}
-
-#strategy .card,
-.home .card {
-    background: transparent;
-    border: none;
-}
-
-.home::after {
-    content: '';
-    position: absolute; 
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 1;
-}
-
-.home-box-contain {
-    height: 500px;
-}
-
-.home-box {
-    max-width: 500px;
-    position: relative;
-    z-index: 2;
-}
-
-/* .home-box h1 {
-    font-size: 35px;
-} */
-
-.home-box p {
-    font-size: 20px;
-}
-
-.home a {
-    color: var(--white);
-}
-
-.home .home-box a {
-    border-radius: 10px;
-    padding: 10px 20px;
-    background-color: var(--white);
-    color: var(--gray);
-}
-
-.home-arrow {   
-    padding: 5px 10px;
-    bottom: 70px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 3;
-    animation: mover 1s infinite alternate;
-}
-
-/*about section */
-.about-info {
-    grid-template-columns: 1fr;
-    gap: 30px 100px;
-}
-
-.about-info img {
-    border-radius: 10px;
-    object-fit: cover;
-    height: 200px;
-}
-
-#about-us span {
-    display: block;
-}
-
-.strategy-grid {
-    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
-    gap: 60px;
-}
-
-/* counter */
-
-.counters {
-    padding: 80px 20px;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url('../images/six.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    color: var(--white);
-}
-
-.counters .counter {
-	font-size: 45px;
-	margin: 10px 0;
-}
-
-.counter-div {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap: 30px;
-    text-align: center;
-    position: relative;
-    z-index: 3;
-}
-
-.counters::after {
-    content: '';
-    position: absolute; 
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 2;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 /* section */
@@ -304,25 +171,6 @@ nav button {
 }
 
 
-/* team section */
-
-#team-section {
-    flex-direction: column;
-}
-
-.team-div {
-}
-
-.team-img {
-    width: 170px;
-    height: 170px;
-    background-color: var(--gray);
-}
-
-.team-img img {
-    width: 170px;
-    height: 170px;
-}
 
 
 @media (max-width: 550px) {
@@ -362,42 +210,7 @@ nav button {
     
     /* section */
 
-    .home-box h1 {
-        font-size: 40px;
-    }
-
-    .clients {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    /* section */
-    
-    #team-section {
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    /* section */
-    
-    .contact-section-div {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .contact-flex {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact-grid {
-        width: 100%;
-        margin: 50px auto;
-        display: grid;
-        gap: 80px 30px;
-        grid-template-columns: 1fr 1fr;
-    }
-    
+     
 
 
 }
