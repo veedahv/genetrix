@@ -156,6 +156,12 @@ nav button {
       font-weight: 100;      
   }
 
+  .button {
+      background-color: var(--black);
+      color: var(--white);
+      border: none;
+  }
+
 @media (max-width: 550px) {
     .navbar .navbar-nav {
         background-color: var(--white) !important;
@@ -187,26 +193,6 @@ nav button {
         left: 0;
     }
     
-
-    /* section */
-    
-    /* .contact-section-div {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .contact-flex {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact-grid {
-        width: 100%;
-        margin: 50px auto;
-        display: grid;
-        gap: 80px 30px;
-        grid-template-columns: 1fr 1fr;
-    } */
     
 
 

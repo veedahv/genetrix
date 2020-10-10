@@ -35,7 +35,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <hr>
@@ -48,11 +48,11 @@
                     </li>
                     <hr>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">Our Team</a>
+                        <a class="nav-link" href="team.html">Our Team</a>
                     </li>
                     <hr>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
                 </ul>
                 </ul>
             </div>
@@ -67,12 +67,12 @@
         <div class="scroll-up">
             <a href="#header"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
         </div>
-        <section class="py-5 my-5">
+        <section class="py-5">
             <div class="container text-center">
                 <div class="contact-info ">
                     <h1>Contact Us</h1>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
+                    <div class="row my-3">
+                        <div class="col-md-6 col-sm-6 my-2">
                             <form action="post" class="text-center">
                                 <label for="name">
                                     <input type="text" class="py-1 px-2" name="name" id="name" placeholder="Name">
@@ -86,13 +86,13 @@
                                 <label for="message">
                                     <input type="text" class="py-1 px-2" name="message" id="message" placeholder="Message">
                                 </label>
-                                <label for="submit">
+                                <label for="submit" class="py-2">
                                     <input type="submit" class="button py-2 px-3 m-auto" value="SEND MESSAGE">
                                 </label>
                             </form>
                             <!-- <button type="submit" class="button"></button> -->
                         </div>
-                        <div class="contact-info col-md-6 col-sm-6">
+                        <div class="contact-info col-md-6 col-sm-6 my-2">
                             <div class="contact-grid grid">
                                 <div>
                                     <i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i>
@@ -116,26 +116,35 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="map-div">
-                            <h3>Location</h3>
-                            <div id="map"></div>
+                        <div class="map-div w-100">
+                            <h3 class="text-center">Location</h3>
+                            <div class="w-100">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319" width="100%" height="200" frameborder="0" style="border:0"></iframe>
+                             </div>
                         </div>
                     </div>
                 </div>
 
             </div>
         </section>
-        <!-- <footer>
-            <div class="container">
-                <div>
-                    <h1>Genetrix-Acquisitions</h1>
-                    <img src="images/logo-white.png" alt="">
+        <footer>
+            <div class="container text-center py-5">
+                <div class="d-flex mb-4 align-items-center justify-content-center">
+                    <img src="images/logo-white.png" alt="" style="max-width: 50px;">
+                    <h1 class="pl-2">Genetrix-Acquisitions</h1>
                 </div>
                 <hr class="hr">
-                <div class="flex footer-bottom">
-                    <div class="flex">
-                        <div class="social-links-div">
-                            <ul class="social-links flex">
+                <div class="d-flex footer-bottom flex-column align-items-center justify-content-between">
+                    <div class="d-flex flex-column align-items-center justify-content-between">
+                        <div class="my-2 footer-a">
+                            <a class="px-2 my-2" href="index.html">Home</a>
+                            <a class="px-2 my-2" href="about.html">About Us</a>
+                            <a class="px-2 my-2" href="sector.html">Market Sectors</a>
+                            <a class="px-2 my-2" href="team.html">Our Team</a>
+                            <a class="px-2 my-2" href="contact.html">Contact Us</a>
+                        </div>
+                        <div class="social-links-div my-2" style="width: 70px;">
+                            <ul class="social-links d-flex justify-content-between">
                                 <li>
                                     <a href="http://" target="_blank" rel="noopener noreferrer">
                                         <i class="fa fa-facebook"></i>
@@ -155,13 +164,13 @@
                         </div>
                     </div>
                     <div>
-                        <p>2020 Genetrix-Acquisitions, All Rights Reserved.</p>
+                        <p class="copyright-txt">2020 Genetrix-Acquisitions, All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
-        </footer>    -->
+        </footer>
     </main>
-    <script src="./js/style.js"></script>
+    <script src="js/style.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
